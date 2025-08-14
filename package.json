@@ -1,0 +1,26 @@
+{
+  "name": "retro-podcast-player",
+  "version": "1.0.0",
+  "description": "Retro Podcast Player that lets you listen to podcasts",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v43rus/retro-podcast-player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v43rus/retro-podcast-player/issues"
+  },
+  "homepage": "https://github.com/v43rus/retro-podcast-player#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-fetch": "2.7"
+  }
+}
